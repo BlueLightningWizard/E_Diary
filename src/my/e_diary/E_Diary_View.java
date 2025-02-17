@@ -36,7 +36,7 @@ public class E_Diary_View extends javax.swing.JFrame {
       try 
         {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            con = DriverManager.getConnection("jdbc:mysql://localhost:3307/e_diary_data", "root", "");
+            con = DriverManager.getConnection("jdbc:mysql://localhost:3308/e_diary_data", "root", "");
         } 
       
       catch (ClassNotFoundException | SQLException ex) 
