@@ -43,7 +43,7 @@ public class E_Diary_Write extends javax.swing.JFrame {
       try 
         {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            con = DriverManager.getConnection("jdbc:mysql://localhost:3307/e_diary_data", "root", "");
+            con = DriverManager.getConnection("jdbc:mysql://localhost:3308/e_diary_data", "root", "");
         } 
       
       catch (ClassNotFoundException | SQLException ex) 
@@ -389,7 +389,7 @@ public class E_Diary_Write extends javax.swing.JFrame {
             }
         }
 
-        if (year>=2022 && year<=2024)
+        if (year>=2022 && year<=2025)
         {
 
         }
